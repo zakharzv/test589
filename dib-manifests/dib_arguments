@@ -1,0 +1,1 @@
+vm block-device-gpt sort-partnumbers bootloader cloud-init-datasources apt-sources modprobe ubuntu-minimal ubuntu-focal-vpc customize-image -t raw --mkfs-options -O ^metadata_csum,64bit -i 16384 -o /var/diskimage-builder/images/ubuntu-focal-amd64-selectel-master-product-0.1
